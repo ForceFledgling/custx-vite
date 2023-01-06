@@ -40,6 +40,7 @@ div.card-image img {
 </style>
 
 <script>
+import axios from 'axios';
 export default {
   name: "HomeView",
   data: () => ({

@@ -18,9 +18,9 @@ export default defineConfig({
     cors: false,
     proxy: {
       '/api': {
-        target: 'https://api.custx.ru/api/',
+        target: 'https://api.custx.ru/',
         changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/api/, ''),
+        // rewrite: (path) => path.replace(/^\/api/, ''),
       },
     },
   },
