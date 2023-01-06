@@ -19,7 +19,7 @@ export default defineConfig({
     proxy: {
       '/api': {
         target: 'https://api.custx.ru',
-        changeOrigin: true,
+        changeOrigin: false,
         // rewrite: (path) => path.replace(/^\/api/, ''),
       },
     },
