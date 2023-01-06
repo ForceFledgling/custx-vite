@@ -6,7 +6,7 @@
       <div class="col s12 m6">
         <div class="card">
           <div class="card-image">
-            <img src="img/courses/network_essentials/course_logo.jpg">
+            <img src="/img/courses/network_essentials/course_logo.jpg">
             <span class="card-title">Основы сетевых технологий</span>
             <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
           </div>
@@ -18,7 +18,7 @@
       <div class="col s12 m6">
         <div class="card">
           <div class="card-image">
-            <img src="img/courses/network_operator/course_logo.jpeg">
+            <img src="/img/courses/network_operator/course_logo.jpeg">
             <span class="card-title">Сетевые технологии для операторов связи</span>
             <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
           </div>
