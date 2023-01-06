@@ -15,7 +15,7 @@ export default defineConfig({
     'process.env': {}
   },
   server: {
-    cors: true,
+    cors: false,
     proxy: {
       '/api': {
         target: 'https://api.custx.ru',
