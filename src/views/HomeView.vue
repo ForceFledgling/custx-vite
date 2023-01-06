@@ -48,7 +48,7 @@ export default {
   }),
   mounted() {
     axios
-      .get('/api/test')
+      .get('https://api.custx.ru/api/test')
       .then(response => (this.courses = [response]))
       .catch(error => console.log(error));
   }
