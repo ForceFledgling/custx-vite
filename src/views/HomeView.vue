@@ -49,7 +49,7 @@ export default {
   }),
   mounted() {
     axios
-      .get('/api/test')
+      .get('/api/test', {}, { headers: { 'Access-Control-Allow-Origin': '*' } })
       .then(response => (this.courses = [response.data]))
       .catch(error => console.log(error));
   }
