@@ -49,7 +49,7 @@ export default {
   mounted() {
     axios
       .get('https://api.custx.ru/api/test')
-      .then(response => (this.courses = [response]))
+      .then(response => (this.courses = [response.data]))
       .catch(error => console.log(error));
   }
 };
