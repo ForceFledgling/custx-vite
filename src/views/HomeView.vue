@@ -41,7 +41,6 @@ div.card-image img {
 
 <script>
 import axios from 'axios';
-axios.defaults.headers.common['Access-Control-Allow-Origin'] = "*";
 export default {
   name: "HomeView",
   data: () => ({
@@ -49,8 +48,8 @@ export default {
   }),
   mounted() {
     axios
-      .get('/api/test', {}, { headers: { 'Access-Control-Allow-Origin': '*' } })
-      .then(response => (this.courses = [response.data]))
+      .get('/api/test')
+      .then(response => (this.courses = [response]))
       .catch(error => console.log(error));
   }
 };
