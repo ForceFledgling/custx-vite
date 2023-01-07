@@ -20,7 +20,7 @@
     <div class="footer-copyright" id="footer-copyright">
       <div class="container">
       © 2023 - Vladimir Penzin
-      <a class="grey-text text-lighten-4 right" href="https://github.com/pvenv/custx-vue">Проект на GitHub</a>
+      <a class="grey-text text-lighten-4 right" href="https://github.com/pvenv/custx-vite">Проект на GitHub</a>
       </div>
     </div>
   </footer>
