@@ -3,6 +3,7 @@
     <h4>Главная страница</h4>
     <p>Доступные курсы:</p>
     <div class="row">
+      
       <div class="col s12 m6">
         <div class="card">
           <div class="card-image">
@@ -15,6 +16,7 @@
           </div>
         </div>
       </div>
+
       <div class="col s12 m6">
         <div class="card">
           <div class="card-image">
@@ -27,9 +29,21 @@
           </div>
         </div>
       </div>
+
+      <div v-for="course in listCourse" :key="course.id" class="col s12 m6">
+        <div class="card">
+          <div class="card-image">
+            <img :src="course.poster">
+            <span class="card-title">{{ course.title }}</span>
+            <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+          </div>
+          <div class="card-content">
+            <p>{{ course.description }}</p>
+          </div>
+        </div>
+      </div>
+
     </div>
-    <p>Testing axios:</p>
-    <p v-for="course in courses">{{ course }}</p>
   </div>
 </template>
 
@@ -44,14 +58,22 @@ import axios from 'axios';
 export default {
   name: "HomeView",
   data: () => ({
-    courses: null,
+    listCourse: null,
+    
   }),
-  mounted() {
-    axios
-      .get('https://api.custx.ru/api/test')
-      .then(response => (this.courses = [response.data]))
-      .catch(error => console.log(error));
-  }
+  created() {
+    this.loadListCourses();
+  },
+  methods: {
+    async loadListCourses() {
+      try {
+        const response = await axios.get(`${this.$store.getters.getBackendUrl}/test`);
+        this.listCourse = [response.data];
+      } catch (error) {
+        console.log(error);
+      }
+    }
+  },
 };
 console.log("VUE_APP_NOT_SECRET_CODE", process.env.VUE_APP_NOT_SECRET_CODE)
 </script>
