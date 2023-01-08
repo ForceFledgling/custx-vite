@@ -67,7 +67,7 @@ export default {
   methods: {
     async loadListCourses() {
       try {
-        const response = await axios.get(`${this.$store.getters.getBackendUrl}/test`);
+        const response = await axios.get(`${this.$store.getters.getBackendUrl}/courses/test`);
         this.listCourse = [response.data];
       } catch (error) {
         console.log(error);
