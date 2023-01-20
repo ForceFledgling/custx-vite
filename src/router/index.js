@@ -13,6 +13,12 @@ const routes = [
     meta: { layout: "empty" },
     component: () => import("../views/AboutView.vue"),
   },
+  {
+    path: "/login",
+    name: "login",
+    meta: { layout: "empty" },
+    component: () => import("../views/LoginView.vue"),
+  },
 ];
 
 const router = createRouter({
