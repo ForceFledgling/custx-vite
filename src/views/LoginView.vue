@@ -70,7 +70,8 @@ export default({
             await promise
                 .then(response => {
                     console.log(response.data.access_token);
-                    M.toast({html: "Вы успешно вошли!"})
+                    // M.toast({html: "Вы успешно вошли!"})
+                    window.location.href = "/";
                 })
                 .catch(error => {
                     console.log(error.response.data.detail);
