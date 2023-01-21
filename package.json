@@ -20,6 +20,5 @@
     "materialize-css": "^1.0.0",
     "sass": "^1.57.1",
     "vite": "^2.4.0"
-  },
-  "routes": [{ "src": "/[^.]+", "dest": "/", "status": 200 }]
+  }
 }

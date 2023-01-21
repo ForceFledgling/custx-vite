@@ -20,12 +20,5 @@ export default defineConfig({
   },
   define: {
     'process.env': {}
-  },
-  build: {
-    rollupOptions: {
-      input: {
-        main: resolve(__dirname, '../index.html'),
-      },
-    },
-  },
+  }
 })
