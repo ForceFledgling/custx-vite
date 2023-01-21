@@ -12,6 +12,7 @@ export default defineConfig({
       }
     }
   })],
+  base: '/custx-vite/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
