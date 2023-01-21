@@ -35,5 +35,11 @@ jobs:
     - run: npm install
     - run: npm run build
     
+    - name: Upload static site content
+      uses: actions/upload-artifact@v3
+      with:
+        name: static-site
+        path: ./next
+    
     - name: Deploy GitHub Pages site
       uses: actions/deploy-pages@v1.2.3
