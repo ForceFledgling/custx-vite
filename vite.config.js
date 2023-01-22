@@ -12,7 +12,7 @@ export default defineConfig({
       }
     }
   })],
-  base: '/custx-vite/', // if not using custom domain
+  // base: '/custx-vite/', // if not using custom domain
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
