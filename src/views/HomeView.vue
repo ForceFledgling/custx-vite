@@ -62,7 +62,7 @@ export default {
     
   }),
   created() {
-    this.loadListCourses();
+    // this.loadListCourses();
   },
   methods: {
     async loadListCourses() {
