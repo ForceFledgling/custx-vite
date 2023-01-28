@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "watch": "node_modules/.bin/webpack --watch --colors",
+    "watch": "node_modules/.bin/webpack --colors",
     "dev.server": "node_modules/.bin/webpack-dev-server -w"
   },
   "dependencies": {
