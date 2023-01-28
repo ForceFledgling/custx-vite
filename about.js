@@ -7935,7 +7935,7 @@ module.exports = g;
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_b4758188_hasScoped_false_node_modules_vue_loader_lib_selector_type_template_index_0_site_header_vue__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_31b5972c_hasScoped_false_node_modules_vue_loader_lib_selector_type_template_index_0_Header_vue__ = __webpack_require__(5);
 var disposed = false
 var normalizeComponent = __webpack_require__(0)
 /* script */
@@ -7950,14 +7950,14 @@ var __vue_scopeId__ = null
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __vue_script__,
-  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_b4758188_hasScoped_false_node_modules_vue_loader_lib_selector_type_template_index_0_site_header_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_31b5972c_hasScoped_false_node_modules_vue_loader_lib_selector_type_template_index_0_Header_vue__["a" /* default */],
   __vue_styles__,
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "src/components/site_header.vue"
+Component.options.__file = "src/components/site/Header.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
-if (Component.options.functional) {console.error("[vue-loader] site_header.vue: functional components are not supported with templates, they should use render functions.")}
+if (Component.options.functional) {console.error("[vue-loader] Header.vue: functional components are not supported with templates, they should use render functions.")}
 
 /* hot reload */
 if (false) {(function () {
@@ -7966,9 +7966,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-b4758188", Component.options)
+    hotAPI.createRecord("data-v-31b5972c", Component.options)
   } else {
-    hotAPI.reload("data-v-b4758188", Component.options)
+    hotAPI.reload("data-v-31b5972c", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -8013,7 +8013,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-b4758188", esExports)
+     require("vue-hot-reload-api").rerender("data-v-31b5972c", esExports)
   }
 }
 
@@ -8022,7 +8022,7 @@ if (false) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_f6da496c_hasScoped_false_node_modules_vue_loader_lib_selector_type_template_index_0_site_footer_vue__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_1083333a_hasScoped_false_node_modules_vue_loader_lib_selector_type_template_index_0_Footer_vue__ = __webpack_require__(7);
 var disposed = false
 var normalizeComponent = __webpack_require__(0)
 /* script */
@@ -8037,14 +8037,14 @@ var __vue_scopeId__ = null
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __vue_script__,
-  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_f6da496c_hasScoped_false_node_modules_vue_loader_lib_selector_type_template_index_0_site_footer_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_1083333a_hasScoped_false_node_modules_vue_loader_lib_selector_type_template_index_0_Footer_vue__["a" /* default */],
   __vue_styles__,
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "src/components/site_footer.vue"
+Component.options.__file = "src/components/site/Footer.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
-if (Component.options.functional) {console.error("[vue-loader] site_footer.vue: functional components are not supported with templates, they should use render functions.")}
+if (Component.options.functional) {console.error("[vue-loader] Footer.vue: functional components are not supported with templates, they should use render functions.")}
 
 /* hot reload */
 if (false) {(function () {
@@ -8053,9 +8053,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-f6da496c", Component.options)
+    hotAPI.createRecord("data-v-1083333a", Component.options)
   } else {
-    hotAPI.reload("data-v-f6da496c", Component.options)
+    hotAPI.reload("data-v-1083333a", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -8083,7 +8083,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-f6da496c", esExports)
+     require("vue-hot-reload-api").rerender("data-v-1083333a", esExports)
   }
 }
 
@@ -8094,13 +8094,13 @@ if (false) {
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_components_about__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_components_AboutView__ = __webpack_require__(9);
 
 
 
 new __WEBPACK_IMPORTED_MODULE_0_vue__["a" /* default */]({
   el: '#app',
-  render: h => h(__WEBPACK_IMPORTED_MODULE_1_components_about__["a" /* default */])
+  render: h => h(__WEBPACK_IMPORTED_MODULE_1_components_AboutView__["a" /* default */])
 })
 
 
@@ -8109,8 +8109,8 @@ new __WEBPACK_IMPORTED_MODULE_0_vue__["a" /* default */]({
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_selector_type_script_index_0_about_vue__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_3fe6a0f8_hasScoped_false_node_modules_vue_loader_lib_selector_type_template_index_0_about_vue__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_selector_type_script_index_0_AboutView_vue__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_44454da9_hasScoped_false_node_modules_vue_loader_lib_selector_type_template_index_0_AboutView_vue__ = __webpack_require__(11);
 var disposed = false
 var normalizeComponent = __webpack_require__(0)
 /* script */
@@ -8124,15 +8124,15 @@ var __vue_scopeId__ = null
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
-  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_selector_type_script_index_0_about_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_3fe6a0f8_hasScoped_false_node_modules_vue_loader_lib_selector_type_template_index_0_about_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_selector_type_script_index_0_AboutView_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_44454da9_hasScoped_false_node_modules_vue_loader_lib_selector_type_template_index_0_AboutView_vue__["a" /* default */],
   __vue_styles__,
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "src/components/about.vue"
+Component.options.__file = "src/components/AboutView.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
-if (Component.options.functional) {console.error("[vue-loader] about.vue: functional components are not supported with templates, they should use render functions.")}
+if (Component.options.functional) {console.error("[vue-loader] AboutView.vue: functional components are not supported with templates, they should use render functions.")}
 
 /* hot reload */
 if (false) {(function () {
@@ -8141,9 +8141,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-3fe6a0f8", Component.options)
+    hotAPI.createRecord("data-v-44454da9", Component.options)
   } else {
-    hotAPI.reload("data-v-3fe6a0f8", Component.options)
+    hotAPI.reload("data-v-44454da9", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -8158,8 +8158,8 @@ if (false) {(function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_components_site_header__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_components_site_footer__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_components_site_Header__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_components_site_Footer__ = __webpack_require__(6);
 //
 //
 //
@@ -8175,8 +8175,8 @@ if (false) {(function () {
 /* harmony default export */ __webpack_exports__["a"] = ({
   name: 'About',
   components: {
-    'site-header': __WEBPACK_IMPORTED_MODULE_0_components_site_header__["a" /* default */],
-    'site-footer': __WEBPACK_IMPORTED_MODULE_1_components_site_footer__["a" /* default */]
+    'site-header': __WEBPACK_IMPORTED_MODULE_0_components_site_Header__["a" /* default */],
+    'site-footer': __WEBPACK_IMPORTED_MODULE_1_components_site_Footer__["a" /* default */]
   },
   data () {
     return {
@@ -8213,7 +8213,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-3fe6a0f8", esExports)
+     require("vue-hot-reload-api").rerender("data-v-44454da9", esExports)
   }
 }
 
