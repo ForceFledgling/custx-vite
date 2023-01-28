@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import About from 'components/about'
+import About from 'components/AboutView'
 
 new Vue({
   el: '#app',

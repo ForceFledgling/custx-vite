@@ -7,8 +7,8 @@
 </template>
 
 <script>
-import SiteHeader from 'components/site_header'
-import SiteFooter from 'components/site_footer'
+import SiteHeader from 'components/site/Header'
+import SiteFooter from 'components/site/Footer'
 
 export default {
   name: 'About',

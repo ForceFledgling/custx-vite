@@ -1,17 +1,17 @@
 <template>
   <div>
     <site-header />
-    <h3>This is the Index!</h3>
+    <h3>This is the Home!</h3>
     <site-footer />
   </div>
 </template>
 
 <script>
-import SiteHeader from 'components/site_header'
-import SiteFooter from 'components/site_footer'
+import SiteHeader from 'components/site/Header'
+import SiteFooter from 'components/site/Footer'
 
 export default {
-  name: 'Index',
+  name: 'Home',
   components: {
     'site-header': SiteHeader,
     'site-footer': SiteFooter
